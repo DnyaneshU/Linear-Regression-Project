@@ -44,7 +44,7 @@ We use **Linear Regression** to predict house prices using features such as:
 | `Price`      | Target variable (USD)                |
 
 📂 **File**: `data/housing_data.csv`
-
+You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/juhibhojani/house-price?resource=download
 ---
 
 ## 🛠 Technologies Used
