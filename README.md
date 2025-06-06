@@ -1,10 +1,10 @@
-# 🏠 House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
 This project implements a **Linear Regression** model to predict house prices based on historical housing data. The goal is to demonstrate how simple regression techniques can effectively analyze and forecast real estate prices.
 
 ---
 
-## 📘 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Dataset Description](#dataset-description)
 - [Technologies Used](#technologies-used)
@@ -16,7 +16,7 @@ This project implements a **Linear Regression** model to predict house prices ba
 
 ---
 
-## 📌 Overview
+## Overview
 We use **Linear Regression** to predict house prices using features such as:
 - Area (sq. ft.)
 - Number of bedrooms/bathrooms
@@ -31,7 +31,7 @@ We use **Linear Regression** to predict house prices using features such as:
 
 ---
 
-## 🧾 Dataset Description
+## Dataset Description
 **Columns**:
 | Feature      | Description                          |
 |--------------|--------------------------------------|
@@ -43,13 +43,13 @@ We use **Linear Regression** to predict house prices using features such as:
 | `LivingArea` | Above-ground living area (sq. ft.)   |
 | `Price`      | Target variable (USD)                |
 
-📂 **File**: `data/housing_data.csv`
+ **File**: `data/housing_data.csv`
 
 You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/juhibhojani/house-price?resource=download
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 - **Python 3.x**
 - **Libraries**:
   - `NumPy`, `Pandas` (Data handling)
@@ -59,7 +59,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
 
 ---
 
-## ⚙️ Installation
+## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/House-Price-Prediction.git
@@ -76,7 +76,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
      python House_Price_Model.py
    ```
 ---
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 - Correlation Heatmap: Shows the correlation between numeric features and house price.
 
@@ -85,7 +85,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
 - Scatter Plot: Shows how features like Living Area or Garage Area relate to price.
 
 ---
-## 🧠 Model Training
+## Model Training
 
 - Train/Test split: 80/20  
 - Feature scaling is used where required  
@@ -101,7 +101,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
 - **R² Score (Goodness of Fit)**
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 ![Confusion Matrix](Plots/linear_regression_results.png)
 ## Key Insights
@@ -116,7 +116,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
   ---
   
 
-## 🧾 Conclusion
+## Conclusion
 - Linear Regression is effective for predicting housing prices when proper features are selected.
 
 - Good accuracy for initial models, with scope to improve using feature engineering or advanced algorithms.
@@ -125,7 +125,7 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
   
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 -We may add more meaningful features like:
 
   - Zip Code
@@ -140,13 +140,13 @@ You May also download the dataset from Kaggle: https://www.kaggle.com/datasets/j
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 Dataset inspired from Kaggle housing price datasets
 
 Libraries: Scikit-learn, Pandas, Seaborn, Matplotlib
 
 ---
 
-📬 Contact
-Created by [Your Name] – feel free to reach out on LinkedIn or open an issue.
+## Contact
+Feel free to reach out on LinkedIn or open an issue.
    
