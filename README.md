@@ -102,6 +102,17 @@ We use **Linear Regression** to predict house prices using features such as:
 ## 📈 Visualizations
 
 ![Confusion Matrix](Plots/linear_regression_results.png)
+## Key Insights
+
+- The plot shows predicted house prices vs actual prices with a regression line.
+- The red dashed line represents the model’s best linear fit.
+- Most data points are scattered far from the line, showing weak predictions.
+- A very low R² score (≈ 0.01) indicates the model barely explains the variation in prices.
+- Outliers are pulling the line away from the majority of points, reducing accuracy.
+- This suggests the model needs better features or a different algorithm to improve performance.
+
+  ---
+  
 
 ## 🧾 Conclusion
 - Linear Regression is effective for predicting housing prices when proper features are selected.
